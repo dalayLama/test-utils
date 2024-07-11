@@ -1,0 +1,6 @@
+rootProject.name = 'test-utils'
+include 'spring-jpa-utils'
+include 'common-utils'
+include 'postgres-testcontainer'
+include 'spring-liquibase'
+

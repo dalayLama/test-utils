@@ -1,0 +1,10 @@
+group = 'com.jimbeam'
+version = '0.0.1-SNAPSHOT'
+
+dependencies {
+    api 'org.liquibase:liquibase-core'
+}
+
+test {
+    useJUnitPlatform()
+}
