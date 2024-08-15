@@ -3,4 +3,5 @@ include 'spring-jpa-utils'
 include 'common-utils'
 include 'postgres-testcontainer'
 include 'spring-liquibase'
+include 'kafka-testcontainer'
 

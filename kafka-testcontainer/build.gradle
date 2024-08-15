@@ -1,0 +1,11 @@
+group = 'com.jimbeam'
+version = '0.0.1-SNAPSHOT'
+
+dependencies {
+    api 'org.springframework.boot:spring-boot-testcontainers'
+    api 'org.testcontainers:kafka'
+}
+
+test {
+    useJUnitPlatform()
+}
